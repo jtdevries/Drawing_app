@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drawing app</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav id="toolbar" class="navbar navbar-dark bg-dark mb-5">
+
+        <div id="rad" class="btn-group btn-group-sm">
+          <button id="decrad" class="filter-btn contrast-remove btn bg-secondary">-</button>
+          <button id="radval" class="btn btn-secondary btn-disabled" disabled>10</button>
+          <button id="incrad" class="filter-btn contrast-add btn bg-secondary">+</button>
+        </div>
+        Fill
+        <div id="fill"></div>
+        Colors
+        <div id="colors"></div>
+        <div id="save">Save</div>
+        <div id="clear">Clear</div>
+        <div id="brush">brush</div>
+
+    </nav>
+
+
+    <canvas id="canvas">
+      Not supported browser... sorry!
+    </canvas>
+
+
+    <script type="text/javascript" src='assets/js/main.js'></script>
+    <script type="text/javascript" src='assets/js/radius.js'></script>
+    <script type="text/javascript" src='assets/js/colors.js'></script>
+    <script type="text/javascript" src='assets/js/tools/fill.js'></script>
+    <script type="text/javascript" src='assets/js/tools/brush.js'></script>
+    <script type="text/javascript" src='assets/js/save.js'></script>
+    <script type="text/javascript" src='assets/js/clear.js'></script>
+  </body>
+</html>
