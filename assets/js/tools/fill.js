@@ -30,4 +30,4 @@ function setFill(e) {
   fill.className += ' active';
 }
 
-setSwatch({target: document.getElementsByClassName('fill')[0]});
+// setSwatch({target: document.getElementsByClassName('fill')[0]});
