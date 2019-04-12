@@ -15,7 +15,7 @@ var putPoint = function(e) {
     ctx.stroke();
     ctx.beginPath();
     ctx.arc(e.clientX, e.clientY, radius, 0, Math.PI * 2);
-    //clientX instead of offsetX for better browser compatibility
+    //clientX instead of offsetX for better browser compatibility (firefox)
     ctx.fill();
     ctx.beginPath();
     ctx.moveTo(e.clientX, e.clientY);
